@@ -92,5 +92,9 @@ for i in range(100):
     
 
 plt.plot(diff)
+plt.xlabel("Iteration")
+plt.ylabel("Average Error")
+plt.title("Comparing the proper bcs")
+plt.savefig("comparison.png", bbox_inches='tight')
 plt.show()
 
